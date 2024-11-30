@@ -1,0 +1,3 @@
+com\example\brandlist\HelloServlet.class
+com\example\brandlist\entity\Brand.class
+com\example\brandlist\servlet\AddBrandServlet.class
