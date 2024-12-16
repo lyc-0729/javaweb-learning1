@@ -37,6 +37,7 @@ public class LoginServlet extends HttpServlet {
             e.printStackTrace();
             result = new ResponseUtils(e.getClass().getSimpleName(),e.getMessage());
         }
+        System.out.println(result.toJsonString());
         resp.getWriter().write(result.toJsonString());
     }
     @Override

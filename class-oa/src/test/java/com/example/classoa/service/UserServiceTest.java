@@ -1,13 +1,13 @@
 package com.example.classoa.service;
 
 import com.example.classoa.entity.User;
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
 import javax.security.auth.login.LoginException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class UserServiceTest {
+public class UserServiceTest {
     private UserService userService = new UserService();
 
     @Test
